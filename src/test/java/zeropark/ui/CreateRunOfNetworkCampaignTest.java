@@ -34,9 +34,6 @@ public class CreateRunOfNetworkCampaignTest extends BaseUITest {
         createFormPage.getCountryValidationMessage().shouldBe(visible);
         createFormPage.getCountryValidationMessage().shouldHave(text("Select country for your campaign"));
 
-        createFormPage.getCountryValidationMessage().shouldBe(visible);
-        createFormPage.getCountryValidationMessage().shouldHave(text(""));
-
         createFormPage.getBidValidationMessage().shouldBe(visible);
         createFormPage.getBidValidationMessage().shouldHave(text("This field cannot be empty"));
 
